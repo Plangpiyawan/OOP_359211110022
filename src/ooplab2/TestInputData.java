@@ -24,6 +24,7 @@ public class TestInputData {
         System.out.print("What are you?:");
         String address = scanner.nextLine();
         System.out.println("You From :"+address);
+        System.out.println("You From :"+address);
 
     }//    }mail
 
