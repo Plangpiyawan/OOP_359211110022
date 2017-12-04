@@ -22,7 +22,7 @@ public class CalGrade {
             if (score < 0 || score > 100) {
                 count++;
                 if (count == 3) {
-                    System.out.println("User Error");
+                    System.out.println("System Error");
                     break;
                 }
             } else {
