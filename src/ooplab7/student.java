@@ -1,4 +1,7 @@
 package ooplab7;
+
+import jdk.internal.dynalink.beans.StaticClass;
+
 //design class
 //taking about Student
 //1. student id
@@ -6,6 +9,7 @@ package ooplab7;
 //3. major
 //4. group
 public class student {
+    public static String faculty ="Management Technology";
     private String id;
     private String name;
     private String major;

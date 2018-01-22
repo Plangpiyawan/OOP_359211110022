@@ -20,7 +20,12 @@ public class StudentApp {
         showData(s2);
 
         student s3 = new student();
-        s3= inputData(s3);
+        //s3= inputData(s3);
+
+        //test
+        System.out.println(student.faculty);
+        System.out.println(s1.faculty);
+
 
     }//main
 
